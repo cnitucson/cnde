@@ -27,7 +27,7 @@ Ext.application({
                flex: 1
             }]
          },{
-            title: 'Geomech Data',
+            title: '<div style="float:left">Geomechanical Data</div><div style="float:right"><a style="color:white;text-decoration:none" target="_blank" href="http://cnitucson.com">Call & Nicholas, Inc. 2014</a></div>',
             region: 'center',
             layout: 'border',
             flex: 3,
