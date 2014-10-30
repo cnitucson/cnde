@@ -140,7 +140,7 @@ Ext.define('CNDE.controller.Project', {
                gmStore.clearFilter();
                gmStore.filter({ property: 'drillHoleID', value: rec.data.id });
                this.getGeomechDataList().up('[region="center"]')
-                  .setTitle(rec.data.name + ' - Geomech Data');
+                  .setTitle('<div style="float:left">'+rec.data.name+' - Geomechanical Data</div><div style="float:right"><a style="color:white;text-decoration:none" target="_blank" href="http://cnitucson.com">Call & Nicholas, Inc. 2014</a></div>');
                this.getFeedbackList().hide();
                this.getGeomechDataList().enable();
             }
